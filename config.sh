@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_9.0"
-export DT_LINK="https://gitlab.com/OrangeFox/device/beryllium.git -b fox_9.0"
+export FOX_BRANCH="fox_11.0"
+export DT_LINK="https://gitlab.com/OrangeFox/device/beryllium.git -b fox_11.0"
 
 export DEVICE="beryllium"
 export OEM="xiaomi"
@@ -18,7 +18,7 @@ export OUTPUT="OrangeFox*.zip"
 # Additional Dependencies (eg: Kernel Source)
 # Format: "repo dest"
 DEPS=(
-    "https://github.com/OrangeFoxRecovery/Avatar.git misc"
+    "https://github.com/Jabiyeff/msm-4.9-santoni-kud.git 12.1-CAF"
 )
 
 # Extra Command
